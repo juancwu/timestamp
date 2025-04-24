@@ -15,7 +15,6 @@
 		"db:migrate": "drizzle-kit migrate"
 	},
 	"dependencies": {
-		"@chakra-ui/react": "^3.16.1",
 		"@emotion/react": "^11.14.0",
 		"@libsql/client": "^0.15.4",
 		"@t3-oss/env-core": "^0.13.0",
