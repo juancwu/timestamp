@@ -1,0 +1,44 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+	"vcs": {
+		"enabled": false,
+		"clientKind": "git",
+		"useIgnoreFile": false
+	},
+	"files": {
+		"ignoreUnknown": false,
+		"include": ["src/**/*.ts", "src/**/*.tsx"],
+		"ignore": [
+			"node_modules",
+			"migrations",
+			".next",
+			".git",
+			".gitignore",
+			".env",
+			"drizzle.config.ts",
+			"next-env.d.ts",
+			"next.config.ts",
+			"pnpm-lock.yaml",
+			"postcss.config.mjs",
+			"src/.local"
+		]
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab"
+	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "double"
+		}
+	}
+}
