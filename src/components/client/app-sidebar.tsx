@@ -1,10 +1,10 @@
 "use client";
 
-import type * as React from "react";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import type * as React from "react";
 
-import { Timer } from "lucide-react";
+import { NavUser } from "@/components/client/nav-user";
 import {
 	Sidebar,
 	SidebarContent,
@@ -18,7 +18,7 @@ import {
 	SidebarMenuItem,
 	SidebarRail,
 } from "@/components/ui/sidebar";
-import { NavUser } from "@/components/client/nav-user";
+import { Timer } from "lucide-react";
 
 // This is sample data.
 const data = {
