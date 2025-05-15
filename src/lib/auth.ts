@@ -10,7 +10,7 @@ export const auth = betterAuth({
 		schema: authSchema,
 	}),
 	emailAndPassword: {
-		enabled: true,
+		enabled: false,
 	},
 	socialProviders: {
 		github: {
