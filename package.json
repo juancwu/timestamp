@@ -6,13 +6,8 @@
 		"dev": "next dev --turbopack",
 		"build": "next build",
 		"start": "next start",
-		"lint": "biome lint --write",
-		"format": "biome format --write",
-		"check": "biome check --write",
-		"lint:check": "biome lint",
-		"format:check": "biome format",
-		"all:check": "biome check",
-		"db:migrate": "drizzle-kit migrate"
+		"fix:code": "biome check --write",
+		"migrate": "drizzle-kit migrate"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.14.0",
